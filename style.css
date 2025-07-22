@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    display:flex;
+    justify-content:center;
+    font-family: Google Sans, Arial, sans-serif;
+}
+
+
+ 
+#mainContainer{
+    background-color:black;
+    color:white;
+    margin :60px;
+    padding:40px;
+    width:800px;
+font-size:20px;
+
+    
+
+}
+
+#temperature button{
+    border:none;
+    background-Color:black;
+    height:4px;
+    
+    font-size: 20px;
+}
+#celsius{
+    color:white;
+}
+#ferenheit
+{
+    color:lightgray;
+}
+
+ #weather-header{
+    display:flex;
+     justify-content:flex-start;
+     margin-top:30px;
+}
+#weather-details{
+    display:flex;
+    justify-content:space-between;
+    width:600px;
+}
+
+#temperature{
+    display:flex;
+     justify-content:flex-start; 
+
+margin-right:20px;
+
+gap:10px;
+}
+ #weather-summary{
+text-align:right ;
+font-size:18px;
+} 
+#weather-summary p{
+    color:lightgray;
+}
+#weather-info{
+color:lightgray;
+font-size:16px;
+}
+
+#weather-buttons button{
+    margin-top:30px;
+    font-size:16px;
+        background-color:black;
+    color:white;
+    border:none;
+    width:100px;
+   height:50px; 
+}
+#graph
+{margin-top:30px;
+   
+}
+.weather-chart{
+    background-color:black;
+    width:800px;
+    height:300px;
+}
+#graph{
+       /* background-color:rgba(10, 36, 59, 0.5); */
+       
+       color:white; 
+       /* width:800px;
+       height:300px; */
+}
+#forecast-container{
+    display:flex;
+     justify-content:space-around; 
+     
+    margin-top:20px;
+    font-size:12px;
+   width:800px;
+}
+.day-name{
+   align-content:center;
+    font-size:16px;
+}
+.day-box{
+   display:flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items:center;
+
+
+}
+#horizontal-line{
+    margin:20px;
+    padding-left:27px;
+ width:700px; 
+
+}
+
+/* .tab{
+   // position :relative;
+    
+}
+ .tab.active::after{
+
+    background-color:coral;
+    content:'';
+    position:absolute;
+    bottom: 0;
+    left:50;
+    width:90%;
+    height:3px;
+
+}  */
+.container{
+    display:flex;
+    justify-content: space-around;
+    margin-top:60px;
+height:250px;
+    width:800px;
+}
+
+.item-div{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:space-between;
+  height:150px;
+  width:100px;
+ 
+color:white;
+
+ padding:20px;
+
+}
+.wind-div{
+    font-size: 16px;
+    color:lightgray;
+    margin-bottom:30px;
+}
+.arrow-div{
+    font-size:20px;
+    margin-bottom:30px;
+}
+.hour-div{
+     font-size: 16px;
+    color:lightgray;
+}

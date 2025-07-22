@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+            <div id="location-info"><p>Results for H-13,Islamabad</p></div>
+        <div id="weather-header">
+
+    
+    <div id="temperature"><img src="" width ="60px">
+    <h1>33</h1><button id="celsius">°C</button>|
+    <button id="ferenheit">°F</button></div>
+
+<div id="weather-details">
+<div id="weather-info">
+  <p id="precipitation">Precipitation: 0%</p>
+  <p id="humidity">Humidity: 0%%</p>
+  <p id="wind">Wind: 0 km/h</p>
+</div>
+
+<div id="weather-summary">
+  <h2>Weather</h2>
+  <p  id="day">Monday</p>
+  <p id="weather-status">Partly cloudy</p>
+</div>
+</div>
+
+</div>
+
+<div id="weather-buttons"><button id="tempBtn" class="tab active">Temperature</button>
+|<button id="preBtn" class ="tab ">Precipitation</button>|
+<button id="windBtn" class="tab" >Wind</button></div>
+
+<div id="graph">
+      <!-- <canvas id="weather-chart"></canvas> -->
+</div>
+
+
+<div id="forecast-container">
+  <div class="day-box" data-day="Friday">
+    <p class="day-name">Fri</p>
+    <img src="" class="day-icon" width ="50px">
+    <p class="day-temp">32°C <small style="color:lightgray;">25°F</small></p>
+  </div>
+
+  <div class="day-box" data-day="Saturday">
+    <p class="day-name">Sat</p>
+    <img src="" class="day-icon" width ="50px">
+    <p class="day-temp">35°C <small style="color:lightgray;">25°F</small></p>
+  </div>
+  
+  <div class="day-box" data-day="Sunday">
+    <p class="day-name">Sun</p>
+   <img src="" class="day-icon" width ="50px">
+    <p class="day-temp">35°C <small style="color:lightgray;">25°F</small></p>
+  </div>
+
+  <div class="day-box" data-day="Saturday">
+    <p class="day-name">Mon</p>
+<img src="" class="day-icon" width ="50px">
+    <p class="day-temp">35°C <small style="color:lightgray;">25°F</small></p>
+  </div>
+  
+  <div class="day-box" data-day="Saturday">
+    <p class="day-name">Tue</p>
+ <img src="" class="day-icon" width ="50px">
+    <p class="day-temp">35°C <small style="color:lightgray;">25°F</small></p>
+  </div>
+  
+  <div class="day-box" data-day="Saturday">
+    <p class="day-name">Wed</p>
+<img src="" class="day-icon" width ="50px">
+    <p class="day-temp">35°C <small style="color:lightgray;">25°F</small></p>
+  </div>
+  
+  <div class="day-box" data-day="Saturday">
+    <p class="day-name">Thu</p>
+ <img src="" class="day-icon" width ="50px">
+    <p class="day-temp">35°C <small style="color:lightgray;">25°F</small></p>
+  </div>
+  
+  <div class="day-box" data-day="Saturday">
+    <p class="day-name">Fri</p>
+<img src="" class="day-icon" width ="50px">
+    <p class="day-temp">35°C <small style="color:lightgray;">25°F</small></p>
+  </div>
+
+
+
+</div>
+
+
+
+ <div id="horizontal-line"><hr style="background-color:darkgray; border: none; height: 0.5px;"></div>
+
+
+
+
+
+
+
+   </div>
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+
+</body>
+<script src="first.js"></script>
+
+</html>
